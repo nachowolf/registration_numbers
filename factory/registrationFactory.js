@@ -1,6 +1,7 @@
- function numberReg() {
+ function numberReg() {  // <= you can pass a value here that can be accessed by the rest of the functions within your code
     // alert(numberReg);
-var newArray = reg || [];
+var newArray = reg || []; // or set , check whether reg has data and use that or else set an empty array 
+
 //var greetedNames = strings || []
 function storeArray(reg) {
 
